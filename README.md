@@ -37,5 +37,43 @@ O dashboard foi desenvolvido para atender aos seguintes entregáveis e funcional
 
 ---
 
+# Como Rodar o Projeto Localmente
+
+Para começar a usar este projeto na sua máquina, especialmente se você estiver utilizando o **VS Code**, siga estes passos:
+
+### 1\. Baixar ou Clonar o Repositório
+
+  * **Opção Rápida (Baixar ZIP):** No GitHub, clique no botão verde "**Code**" e escolha "**Download ZIP**". Depois, é só descompactar o arquivo em uma pasta de sua preferência.
+  * **Com Git (Recomendado):** Se você tem o Git instalado, abra seu terminal e execute o comando:
+    ```bash
+    git clone https://github.com/paulovrl0624/Desafio.git
+    ```
+
+### 2\. Abrir o Projeto no VS Code
+
+  * Abra o **VS Code**.
+  * Vá em `File` (Arquivo) \> `Open Folder...` (Abrir Pasta...).
+  * Localize e selecione a pasta `Desafio` (onde você descompactou ou clonou o projeto) para abri-la no VS Code.
+
+### 3\. Instalar as Dependências
+
+  * Dentro do VS Code, abra o **Terminal Integrado**. Você pode fazer isso pelo menu `Terminal` \> `New Terminal` (Novo Terminal), ou com o atalho `Ctrl + Shift + '` (no Windows/Linux) ou `Cmd + Shift + '` (no macOS).
+  * Confirme que o terminal está no diretório raiz do seu projeto (`Desafio`).
+  * Execute o comando para instalar todas as dependências que o projeto precisa:
+    ```bash
+    npm install
+    ```
+    Aguarde a conclusão do processo.
+
+### 4\. Executar o Programa
+
+  * Com as dependências já instaladas, no mesmo **Terminal Integrado do VS Code**, inicie o programa com o comando:
+    ```bash
+    npm run dev
+    ```
+  * O terminal vai te informar qual é o endereço (URL) onde o programa está rodando (normalmente algo como `http://localhost:3000`). Copie esse endereço e cole-o no seu navegador para ver o projeto em ação\!
+
+---
+
 **Desenvolvido por:** Paulo Victor
-**GitHub:** [https://github.com/paulovrl062431](https://github.com/paulovrl062431)
+**GitHub:** [https://github.com/paulovrl062431](https://github.com/paulovrl0624)
